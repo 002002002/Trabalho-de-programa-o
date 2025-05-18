@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # TRABALHO DE PROGRAMAÇÃO
 
 O aluno deverá criar um único problema e desenvolvê-lo nas cinco linguagens vistas em sala de aula: 
