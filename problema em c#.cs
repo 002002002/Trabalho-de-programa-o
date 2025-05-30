@@ -1,5 +1,5 @@
 // Código escrito em linguagem C#
-
+// Problema: Ler o nome e as notas de 5 alunos, calcular a média e informar se foram aprovados, estão em recuperação ou reprovados.
 using System;
 
 class Program {
