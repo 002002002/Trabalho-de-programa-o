@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hello-word", "hello-word", "{A53EADD0-1C94-5D26-98FC-C839C97D3078}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "output", "output", "{01440F61-8C85-BBE0-B546-60D363D73EA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloApp", "hello-word\output\HelloApp\HelloApp.csproj", "{EC2262E6-9BF6-F8D3-67A6-D65AE28514DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC2262E6-9BF6-F8D3-67A6-D65AE28514DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC2262E6-9BF6-F8D3-67A6-D65AE28514DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC2262E6-9BF6-F8D3-67A6-D65AE28514DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC2262E6-9BF6-F8D3-67A6-D65AE28514DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01440F61-8C85-BBE0-B546-60D363D73EA1} = {A53EADD0-1C94-5D26-98FC-C839C97D3078}
+		{EC2262E6-9BF6-F8D3-67A6-D65AE28514DE} = {01440F61-8C85-BBE0-B546-60D363D73EA1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE05A2E1-5C1D-4873-B19E-707C2AAEC888}
+	EndGlobalSection
+EndGlobal
