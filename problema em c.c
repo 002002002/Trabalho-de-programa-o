@@ -27,10 +27,9 @@ int main() {
     int nota2;
     float media;
     int soma;
-    int i;
     int aprovados=0,recuperacao=0,reprovados=0;
 
-    for(i=0;i<aluno;i++){
+    for(int i=0;i<aluno;i++){
         printf("Nome do aluno:\n");
         scanf("%s",nome);
 
