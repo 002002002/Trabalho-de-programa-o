@@ -1,29 +1,34 @@
-#código escrito em linguagem python
+# Sistema de verificação de notas de alunos
+
+# Variáveis para contar quantos alunos estão em cada situação
 aprovados = 0
 recuperacao = 0
 reprovados = 0
 
-#estrutura de repetição
-for i in range(1, 6):
-    # lendo o nome e notas
-    nome = input(f"Digite o nome do aluno {i}: ")
-    nota1 = float(input("Digite a primeira nota: "))
-    nota2 = float(input("Digite a segunda nota: "))
-    
-    media = (nota1 + nota2) / 2  # calculando média
+# Laço que repete 5 vezes (para 5 alunos)
+for i in range(5):
+    nome = input("Nome do aluno: ")  # Coleta o nome do aluno
 
-    # verificando situação
+    nota1 = float(input("Nota 1: "))  # Coleta a primeira nota (converte para float)
+    nota2 = float(input("Nota 2: "))  # Coleta a segunda nota
+
+    media = (nota1 + nota2) / 2  # Calcula a média
+
+    print(f"A média do aluno {nome} é: {media:.2f}")  # Exibe a média com 2 casas decimais
+
+    # Verifica a situação do aluno
     if media >= 7:
-        print(f"{nome} foi aprovado.")
+        print("✅ Aprovado!")
         aprovados += 1
-    elif media >= 5:
-        print(f"{nome} está em recuperação.")
+    elif 5 <= media < 7:
+        print("🟦 Recuperação!")
         recuperacao += 1
     else:
-        print(f"{nome} foi reprovado.")
+        print("❌ Reprovado!")
         reprovados += 1
 
-# exibindo os totais
-print("\nTotal de aprovados:", aprovados)
-print("Total de recuperação:", recuperacao)
-print("Total de reprovados:", reprovados)
+# Exibe o resumo final
+print("\nResumo final:")
+print(f"Aprovados: {aprovados}")
+print(f"Recuperação: {recuperacao}")
+print(f"Reprovados: {reprovados}")
